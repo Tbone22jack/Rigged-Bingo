@@ -159,7 +159,6 @@ def generate_printable_bingo_card(cards, filename):
     # Draw BINGO at the top
     draw.text(((MARGIN + CELL_SIZE // 3) + xOffset, MARGIN + yOffset +15), "B", fill='black', font=font)
     draw.text(((2 * MARGIN + CELL_SIZE + CELL_SIZE // 2.8) + xOffset, MARGIN + yOffset +15), "I", fill='black', font=font)
-    draw.text(((2 * MARGIN + CELL_SIZE + CELL_SIZE // 2.8) + xOffset, MARGIN + yOffset +15), "I", fill='black', font=font)
     draw.text(((3 * MARGIN + 2 * CELL_SIZE + CELL_SIZE // 3.5) + xOffset, MARGIN + yOffset +15), "N", fill='black', font=font)
     draw.text(((4 * MARGIN + 3 * CELL_SIZE + CELL_SIZE // 3.5) + xOffset, MARGIN + yOffset +15), "G", fill='black', font=font)
     draw.text(((5 * MARGIN + 4 * CELL_SIZE + CELL_SIZE // 3.25) + xOffset, MARGIN + yOffset +15), "O", fill='black', font=font)
@@ -211,7 +210,6 @@ def generate_printable_bingo_card(cards, filename):
         font = ImageFont.truetype("C:/Users/Thomas/Downloads/bingo-main/arial.ttf", 35)
         draw.text(((MARGIN + CELL_SIZE // 3) + xOffset, MARGIN + yOffset +15 ), "B", fill='black', font=font)
         draw.text(((2 * MARGIN + CELL_SIZE + CELL_SIZE // 2.8) + xOffset, MARGIN + yOffset +15), "I", fill='black', font=font)
-        draw.text(((2 * MARGIN + CELL_SIZE + CELL_SIZE // 2.8) + xOffset, MARGIN + yOffset +15), "I", fill='black', font=font)
         draw.text(((3 * MARGIN + 2 * CELL_SIZE + CELL_SIZE // 3.5) + xOffset, MARGIN + yOffset +15), "N", fill='black', font=font)
         draw.text(((4 * MARGIN + 3 * CELL_SIZE + CELL_SIZE // 3.5) + xOffset, MARGIN + yOffset +15), "G", fill='black', font=font)
         draw.text(((5 * MARGIN + 4 * CELL_SIZE + CELL_SIZE // 3.25) + xOffset, MARGIN + yOffset +15), "O", fill='black', font=font)
@@ -261,7 +259,6 @@ def generate_printable_bingo_card(cards, filename):
         # Draw BINGO at the top
         font = ImageFont.truetype("C:/Users/Thomas/Downloads/bingo-main/arial.ttf", 35)
         draw.text(((MARGIN + CELL_SIZE // 3) + xOffset, MARGIN + yOffset +15), "B", fill='black', font=font)
-        draw.text(((2 * MARGIN + CELL_SIZE + CELL_SIZE // 2.8) + xOffset, MARGIN + yOffset +15), "I", fill='black', font=font)
         draw.text(((2 * MARGIN + CELL_SIZE + CELL_SIZE // 2.8) + xOffset, MARGIN + yOffset +15), "I", fill='black', font=font)
         draw.text(((3 * MARGIN + 2 * CELL_SIZE + CELL_SIZE // 3.5) + xOffset, MARGIN + yOffset +15), "N", fill='black', font=font)
         draw.text(((4 * MARGIN + 3 * CELL_SIZE + CELL_SIZE // 3.5) + xOffset, MARGIN + yOffset +15), "G", fill='black', font=font)
@@ -313,7 +310,6 @@ def generate_printable_bingo_card(cards, filename):
         # Draw BINGO at the top
         font = ImageFont.truetype("C:/Users/Thomas/Downloads/bingo-main/arial.ttf", 35)
         draw.text(((MARGIN + CELL_SIZE // 3) + xOffset, MARGIN + yOffset +15), "B", fill='black', font=font)
-        draw.text(((2 * MARGIN + CELL_SIZE + CELL_SIZE // 2.8) + xOffset, MARGIN + yOffset +15), "I", fill='black', font=font)
         draw.text(((2 * MARGIN + CELL_SIZE + CELL_SIZE // 2.8) + xOffset, MARGIN + yOffset +15), "I", fill='black', font=font)
         draw.text(((3 * MARGIN + 2 * CELL_SIZE + CELL_SIZE // 3.5) + xOffset, MARGIN + yOffset +15), "N", fill='black', font=font)
         draw.text(((4 * MARGIN + 3 * CELL_SIZE + CELL_SIZE // 3.5) + xOffset, MARGIN + yOffset +15), "G", fill='black', font=font)
